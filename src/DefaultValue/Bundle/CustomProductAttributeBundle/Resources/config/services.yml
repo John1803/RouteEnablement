@@ -1,0 +1,7 @@
+parameters:
+#    default_value_custom_product_attribute.example.class: DefaultValue\Bundle\CustomProductAttributeBundle\Example
+
+services:
+#    default_value_custom_product_attribute.example:
+#        class: %default_value_custom_product_attribute.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
