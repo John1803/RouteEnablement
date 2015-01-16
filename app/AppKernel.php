@@ -19,7 +19,7 @@ class AppKernel extends OroKernel
     {
 
         $bundles = array(
-            new DefaultValue\Bundle\CustomProductAttributeBundle\DefaultValueCustomProductAttributeBundle(),
+            new DefaultValue\Bundle\CatalogBundle\DefaultValueCatalogBundle(),
         );
 
 

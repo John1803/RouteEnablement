@@ -1,3 +1,0 @@
-default_value_custom_product_attribute_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: DefaultValueCustomProductAttributeBundle:Default:index }

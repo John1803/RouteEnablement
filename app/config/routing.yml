@@ -1,5 +1,5 @@
-default_value_custom_product_attribute:
-    resource: "@DefaultValueCustomProductAttributeBundle/Resources/config/routing.yml"
+default_value_catalog:
+    resource: "@DefaultValueCatalogBundle/Resources/config/routing.yml"
     prefix:   /
 
 # PIM
