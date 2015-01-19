@@ -1,0 +1,597 @@
+attributes:
+    sku:
+        labels:
+            en_US: SKU
+        type:    pim_catalog_identifier
+        group:               Marketing
+        useableAsGridColumn: true
+        useableAsGridFilter: true
+        sortOrder:           1
+    name:
+        labels:
+            en_US: Name
+        type:    pim_catalog_text
+        group:                Marketing
+        useableAsGridColumn:  true
+        useableAsGridFilter:  true
+        sortOrder:            2
+    keywords:
+        labels:
+            en_US: Keywords
+        type:    pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: true
+        useableAsGridFilter: true
+        sortOrder:           3
+    description:
+        labels:
+            en_US: Description
+        type:    pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           4
+    buyurl:
+        labels:
+            en_US: Buyurl
+        type:    pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           5
+    available:
+        labels:
+            en_US: Available
+        type:                pim_catalog_boolen
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           6
+    imageUrl1:
+        labels:
+            en_US: First Image Url
+        type:    pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           7
+    imageUrl2:
+        labels:
+            en_US: Secong Image Url
+        type:                pim_catalog_text
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           8
+    imageUrl3:
+        labels:
+            en_US: Third Image Url
+        type:                pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           9
+    imageUrl4:
+        labels:
+             en_US: Fourth Image Url
+        type:                pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           10
+    imageurl5:
+        labels:
+            en_US: Fifth Image Url
+        type:                pim_catalog_text
+        group:               Marketing
+        useableAsGridColumn: false
+        useableAsGridFilter: false
+        sortOrder:           11
+    price:
+        labels:
+            en_US: Price
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              12
+#    advertisercategory:
+#        labels:
+#            en_US: Advertiser Category
+#        type:
+#        group:
+#        unique:
+#        useableAsGridColumn:
+#        useableAsGridFilter:
+#        sortOrder:
+    manufacturer:
+        labels:
+            en_US: Manufactured
+        type:                   pim_catalog_text
+        group:                  Manufacturing
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              13
+    standardshippingcost:
+        labels:
+            en_US: Standard shipping cost
+        type:                   pim_catalog_price
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              14
+    listprice:
+        labels:
+            en_US: List price
+        type:                   pim_catalog_price
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              15
+    savings:
+        labels:
+            en_US: Saving
+        type:                   pim_catalog_price
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              16
+    vendor:
+        labels:
+            en_US: Vendor
+        type:                   pim_catalog_text
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              17
+    recommended:
+        labels:
+            en_US: Recommended
+        type:                   pim_catalog_text
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              18
+    brand:
+        labels:
+            en_US: Brand
+        type:                   pim_catalog_text
+        group:                  Manufactoring
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              19
+    batteryCapacity:
+        labels:
+            en_US: Battery capicity
+        type:                   pim_catalog_metric
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              20
+    batteryLife:
+        labels:
+            en_US: Battery life
+        type:                   pim_catalog_number
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              21
+    weight:
+        labels:
+            en_US: Weight
+        type:                   pim_catalog_number
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              22
+    includedSoftware:
+        labels:
+            en_US: Inluded software
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              23
+    productCondition:
+        labels:
+            en_US: Product Condition
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              24
+    groundShipping:
+        labels:
+            en_US: Ground shipping
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              25
+    shippingWeight:
+        labels:
+            en_Us: Shipping weight
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              26
+    promotext:
+        labels:
+            en_US: Promotext
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              27
+    promotextstart:
+        labels:
+            en_US: Promotext start
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              28
+    promotextend:
+        labels:
+            en_US: Promotext end
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              29
+    listPriceStart:
+        labels:
+            en_US: list price start
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              30
+    listPriceEnd:
+        labels:
+            en_US: list price start
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              31
+    promoFreeShipping:
+        labels:
+            en_US:              Promo free shipping
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              32
+    promoFreeShippingStart:
+        labels:
+            en_US:              Promo free shipping start
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              33
+    promoFreeShippingEnd:
+        labels:
+            en_US:              Promo free shipping end
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              34
+    availabilityDelivery:
+        labels:
+            en_US:  Availability delivery
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              35
+    customerReviewImage:
+        labels:
+            en_US: Customer review image
+        type:                   pim_catalog_image
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              36
+    customerReviewCount:
+        labels:
+            en_US: Customer review count
+        type:                   pim_catalog_number
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              37
+    customerReviewLink:
+        labels:
+            en_US: Customer review link
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              38
+    bazaarvoiceid:
+        labels:
+            en_US:              Bazaavoicedid
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              39
+    ecounponCode:
+        labels:
+            en_US: Ecoupon code
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              40
+    ecounponDiscountAmount:
+        labels:
+            en_US: Ecounpon discount amount
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              41
+    ecounponStartDate:
+        labels:
+            en_US: Ecoupon start date
+        type:                   pim_catalog_date
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              42
+    ecounponEndDate:
+        labels:
+            en_US: Ecoupon end date
+        type:                   pim_catalog_date
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              43
+    ecounponPrice:
+        labels:
+            en_US: Ecounpon price
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              44
+    shape:
+        labels:
+            en_US: Shape
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              45
+    bestSeller:
+        labels:
+            en_US: Best seller
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              46
+    detailsurl:
+        labels:
+            en_US: Details url
+        type:                   pim_catalog_text
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              47
+    upc:
+        labels:
+            en_US: UPC
+        type:                   pim_ctalog_number
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              48
+    ean:
+        labels:
+            en_Us: EAN
+        type:                   pim_catalog_numder
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              49
+    jan:
+        labels:
+            en_US: JAN
+        type:                   pim_catalog_number
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              50
+    salePrice:
+        labels:
+            en_US: Sale price
+        type:                   pim_catalog_price
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              51
+    salePriceEffectiveDate:
+        labels:
+            en_US: Sale price effective date
+        type:                   pim_catalog_date
+        group:                  Marketing
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              52
+    processor:
+        labels:
+            en_US:  Processor
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              53
+    operatingSystem:
+        labels:
+            en_US: Operating system
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    true
+        sortOrder:              54
+    display:
+        labels:
+            en_US: Display
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    true
+        sortOrder:              55
+    graphics:
+        labels:
+            en_US: Graphics
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    false
+        useableAsGridFilter:    false
+        sortOrder:              56
+    memory:
+        labels:
+            en_US: Memory
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              57
+    hardDrive:
+        labels:
+            en_US: Hard Drive
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              58
+    hardDriveInterface:
+        labels:
+            en_US: Hard Drive Interface
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              59
+    opticalDevice:
+        labels:
+            en_US: Optical device
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              60
+    warranty:
+        labels:
+            en_US: Warranty
+        type:                   pim_catalog_text
+        group:                  Technical
+        useableAsGridColumn:    true
+        useableAsGridFilter:    true
+        sortOrder:              61
+    pointingDevice:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    battery:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    networkCard:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    bluetooth:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    fingerPrintReader:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    formFactor:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    wirelessWan:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    tvTuner:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    hdmi:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    nfc:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    unspsc:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+    itemSpecifics:
+        labels:
+        type:
+        group:
+        unique:
+        useableAsGridColumn:
+        useableAsGridFilter:
+        sortOrder:
+
+
+
+

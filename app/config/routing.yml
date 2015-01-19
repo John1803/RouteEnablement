@@ -1,9 +1,4 @@
-default_value_catalog:
-    resource: "@DefaultValueCatalogBundle/Resources/config/routing.yml"
-    prefix:   /
-
 # PIM
-
 pim_datagrid:
     resource: "@PimDataGridBundle/Resources/config/routing.yml"
 
